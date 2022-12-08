@@ -105,6 +105,6 @@
 
 31. (Element majoritate) Intr-un vector cu n elemente, un element m este element majoritate  
     daca mai mult de n/2 din valorile vectorului sunt egale cu m.  
-    (prin urmare, daca un vector are element majoritate acesta este unui singur).  
+    (prin urmare, daca un vector are element majoritate acesta este unul singur).  
     Sa se determine elementul majoritate al unui vector.  
     (daca nu exista atunci se va afisa <nu exista>, incercati sa gasiti o solutie liniara). 

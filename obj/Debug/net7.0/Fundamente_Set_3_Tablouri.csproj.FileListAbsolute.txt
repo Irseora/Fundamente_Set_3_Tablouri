@@ -1,0 +1,15 @@
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\bin\Debug\net7.0\Fundamente_Set_3_Tablouri.exe
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\bin\Debug\net7.0\Fundamente_Set_3_Tablouri.deps.json
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\bin\Debug\net7.0\Fundamente_Set_3_Tablouri.runtimeconfig.json
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\bin\Debug\net7.0\Fundamente_Set_3_Tablouri.dll
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\bin\Debug\net7.0\Fundamente_Set_3_Tablouri.pdb
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.AssemblyInfoInputs.cache
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.AssemblyInfo.cs
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.dll
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\refint\Fundamente_Set_3_Tablouri.dll
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.pdb
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\Fundamente_Set_3_Tablouri.genruntimeconfig.cache
+C:\Users\Vivi\Documents\Fundamente_Set_3_Tablouri\obj\Debug\net7.0\ref\Fundamente_Set_3_Tablouri.dll
