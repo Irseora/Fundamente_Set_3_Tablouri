@@ -1,12 +1,28 @@
+using System;
+using ReadWrite;
+
 namespace Rezolvari
 {
     class Prob_4
     {
+        public static void Driver()
+        {
+            int n = Read.Numar("Lungimea vectorului");
+            int[] v = Read.Vector("", n);
+            Console.WriteLine();
+
+            int[] pozitiiSiAparitii = ValoareMinMaxAparitii(n, v);
+            Console.WriteLine($"Cea mai mica valoare: {pozitiiSiAparitii[0]}");
+            Console.WriteLine($"Numarul de aparitii: {pozitiiSiAparitii[1]}{Environment.NewLine}");
+            Console.WriteLine($"Cea mai mare valoare: {pozitiiSiAparitii[2]}");
+            Console.WriteLine($"Numarul de aparitii: {pozitiiSiAparitii[3]}");
+        }
+
         /// <summary> Determina cea mai mica valoare, cea mai mare valoare si numarul lor de aparitii dintr-un tablou dat </summary>
         /// <param name="n"> Numarul de elemente din tablou </param>
         /// <param name="v"> Tabloul </param>
         /// <returns> Cea mai mica valoare, cea mai mare valoare si numarul lor de apartii din tablou, sub forma unui tablou de 4 elemente: {minim, minAparitii, maxim, maxAparitii} </returns>
-        public static int[] ValoareMinMaxAparitii(int n, int[] v)
+        static int[] ValoareMinMaxAparitii(int n, int[] v)
         {
             int minim = v[0], maxim = v[0], minAparitii = 1, maxAparitii = 1;
 

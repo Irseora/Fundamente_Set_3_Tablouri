@@ -1,7 +1,19 @@
+using System;
+using ReadWrite;
+
 namespace Rezolvari
 {
     class Prob_8
     {
+        public static void Driver()
+        {
+            int n = Read.Numar("N");
+            int[] v = Read.Vector("", n);
+
+            Console.Write($"{Environment.NewLine}Vectorul rotit: ");
+            Write.Vector(Rotate(n, v));
+        }
+
         /// <summary> Roteste elementele unui vector cu o pozitie spre stanga </summary>
         /// <param name="n"> Numarul de elemente din vector </param>
         /// <param name="v"> Vectorul de numere intregi </param>

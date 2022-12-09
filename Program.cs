@@ -32,7 +32,7 @@ namespace Fundamente_Set_3_Tablouri
         {
             // Indicatiile celui de al treilea set de probleme (31)
             string[] indicatii = {"Setul de probleme 3 (Tablouri):",
-                                  $" 1. Calculati suma elementelor unui vector de n numere citite de la tastatura.{Environment.NewLine}",
+                                  $" 1. Calculati suma elementelor unui vector de n numere citite de la tastatura.",
                                   $" 2. Se da un vector cu n elemente si o valoare k.{Environment.NewLine}    Se cere sa se determine prima pozitie din vector pe care apare k.",
                                         // Daca k nu apare in vector rezultatul va fi -1.
                                   $" 3. Sa se determine pozitiile dintr-un vector pe care apar cel mai mic si cel mai mare element al vectorului.",
@@ -83,48 +83,52 @@ namespace Fundamente_Set_3_Tablouri
                                         // Incercati sa gasiti o solutie liniara
                                   };
 
-            // TODO: Citiri
-
             // Apeleaza functia care rezolva problema aleasa
             int prob = Afis(indicatii);
+
+            Console.Clear();
+            Console.WriteLine(indicatii[prob]);
+            Console.WriteLine($"------------------------------------------------------------------------------------------------------------------------{Environment.NewLine}");
+
             switch (prob)
             {
-                case  1:  break;
-                case  2:  break;
-                case  3:  break;
-                case  4:  break;
-                case  5:  break;
-                case  6:  break;
-                case  7:  break;
-                case  8:  break;
-                case  9:  break;
-                case 10:  break;
-                case 11:  break;
-                case 12:  break;
-                case 13:  break;
-                case 14:  break;
-                case 15:  break;
-                case 16:  break;
-                case 17:  break;
-                case 18:  break;
-                case 19:  break;
-                case 20:  break;
-                case 21:  break;
-                case 22:  break;
-                case 23:  break;
-                case 24:  break;
-                case 25:  break;
-                case 26:  break;
-                case 27:  break;
-                case 28:  break;
-                case 29:  break;
-                case 30:  break;
-                case 31:  break;
+                case  1: Prob_1.Driver(); break;
+                case  2: Prob_2.Driver(); break;
+                case  3: Prob_3.Driver(); break;  // TODO:
+                case  4: Prob_4.Driver(); break;
+                case  5: Prob_5.Driver(); break;
+                case  6: Prob_6.Driver(); break;
+                case  7: Prob_7.Driver(); break;
+                case  8: Prob_8.Driver(); break;
+                case  9: Prob_9.Driver(); break;  // TODO:
+                case 10: Prob_10.Driver(); break;
+                // case 11: Prob_11.Driver(); break;
+                // case 12: Prob_12.Driver(); break;
+                // case 13: Prob_13.Driver(); break;
+                case 14: Prob_14.Driver(); break;
+                // case 15: Prob_15.Driver(); break;
+                case 16: Prob_16.Driver(); break;
+                // case 17: Prob_17.Driver(); break;
+                // case 18: Prob_18.Driver(); break;
+                // case 19: Prob_19.Driver(); break;
+                // case 20: Prob_20.Driver(); break;
+                // case 21: Prob_21.Driver(); break;
+                case 22: Prob_22.Driver(); break;
+                // case 23: Prob_23.Driver(); break;
+                // case 24: Prob_24.Driver(); break;
+                // case 25: Prob_25.Driver(); break;
+                // case 26: Prob_26.Driver(); break;
+                // case 27: Prob_27.Driver(); break;
+                // case 28: Prob_28.Driver(); break;
+                // case 29: Prob_29.Driver(); break;
+                // case 30: Prob_30.Driver(); break;
+                // case 31: Prob_31.Driver(); break;
                 
                 default: break;
             }
 
-            // TODO: Afisari
+            Console.WriteLine($"{Environment.NewLine}Apasati orice tasta pentru a incheia programul...");
+            Console.ReadKey();
         }
     }
 }
