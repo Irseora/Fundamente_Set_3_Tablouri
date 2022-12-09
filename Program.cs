@@ -92,15 +92,15 @@ namespace Fundamente_Set_3_Tablouri
 
             switch (prob)
             {
-                case  1: Prob_1.Driver(); break;
-                case  2: Prob_2.Driver(); break;
-                case  3: Prob_3.Driver(); break;  // TODO:
-                case  4: Prob_4.Driver(); break;
-                case  5: Prob_5.Driver(); break;
-                case  6: Prob_6.Driver(); break;
-                case  7: Prob_7.Driver(); break;
-                case  8: Prob_8.Driver(); break;
-                case  9: Prob_9.Driver(); break;  // TODO:
+                case  1:  Prob_1.Driver(); break;
+                case  2:  Prob_2.Driver(); break;
+                case  3:  Prob_3.Driver(); break;  // TODO:
+                case  4:  Prob_4.Driver(); break;
+                case  5:  Prob_5.Driver(); break;
+                case  6:  Prob_6.Driver(); break;
+                case  7:  Prob_7.Driver(); break;
+                case  8:  Prob_8.Driver(); break;
+                case  9:  Prob_9.Driver(); break;  // TODO:
                 case 10: Prob_10.Driver(); break;
                 // case 11: Prob_11.Driver(); break;
                 // case 12: Prob_12.Driver(); break;
