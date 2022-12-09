@@ -3,11 +3,9 @@ using ReadWrite;
 
 namespace Rezolvari
 {
-    class Prob_22
+    class Prob_23
     {
-        // Vectorii fiind multimi, elementele sunt deja ordonate crescator => se poate folosi cautarea binara
-
-        /// <summary> Determina si afiseaza intersectia, reuniunea si diferentele a doua multimi citite din consola </summary>
+        /// <summary> Determina si afiseaza intersectia, reuniunea si diferentele a doua multimi citite din consola, cu elemente in ordine strict crescatoare </summary>
         public static void Driver()
         {
             int n1 = Read.Numar("N1");

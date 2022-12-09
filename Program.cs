@@ -113,8 +113,8 @@ namespace Fundamente_Set_3_Tablouri
                 // case 19: Prob_19.Driver(); break;
                 // case 20: Prob_20.Driver(); break;
                 // case 21: Prob_21.Driver(); break;
-                case 22: Prob_22.Driver(); break;
-                // case 23: Prob_23.Driver(); break;
+                // case 22: Prob_22.Driver(); break;
+                case 23: Prob_23.Driver(); break;
                 // case 24: Prob_24.Driver(); break;
                 // case 25: Prob_25.Driver(); break;
                 // case 26: Prob_26.Driver(); break;
