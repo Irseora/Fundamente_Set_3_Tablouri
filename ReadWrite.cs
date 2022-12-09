@@ -54,6 +54,22 @@ namespace ReadWrite
 
             return v;
         }
+
+        public static bool[] VectorBool(string varName, int n)
+        {
+            bool[] v = new bool[n];
+
+            if (varName != "")
+                Console.Write($"Introduceti elementele vectorului {varName}: ");
+            else
+                Console.Write("Introduceti elementele vectorului: ");
+
+            string[] input = Console.ReadLine().Split(' ');
+            for (int i = 0; i < n; i++)
+                v[i] = bool.Parse(input[i]);
+
+            return v;
+        }
     }
 
     class Write
