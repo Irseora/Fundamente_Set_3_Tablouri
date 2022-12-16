@@ -33,12 +33,12 @@
     Se cere sa se determine pozitia unui element dat k.  
     Daca elementul nu se gaseste in vector rezultatul va fi -1. 
 
-11. Se da un numar natural n.  
-    Se cere sa se afiseze toate numerele prime mai mici sau egale cu n (ciurul lui Eratostene).   
+11. Ciurul lui Eratostene. Se da un numar natural n.  
+    Se cere sa se afiseze toate numerele prime mai mici sau egale cu n.   
   
-12. Sortare selectie. Implementati algoritmul de sortare <Selection Sort>.  
+12. Sortare selectie. Implementati algoritmul de sortare **Selection Sort**.  
   
-13. Sortare prin insertie. Implementati algoritmul de sortare <Insertion Sort>.  
+13. Sortare prin insertie. Implementati algoritmul de sortare **Insertion Sort**.  
   
 14. Interschimbati elementele unui vector in asa fel incat la final  
     toate valorile egale cu zero sa ajunga la sfarsit.  
@@ -59,7 +59,7 @@
 
 19. Se da un vector s (vectorul in care se cauta) si un vector p (vectorul care se cauta).  
     Determinati de cate ori apare p in s.  
-    De ex. Daca s = [1,2,1,2,1,3,1,2,1] si p = [1,2,1] atunci p apare in s de 3 ori.  
+    De ex. Daca s = [1, 2, 1, 2, 1, 3, 1, 2, 1] si p = [1, 2, 1] atunci p apare in s de 3 ori.  
     (Problema este dificila doar daca o rezolvati cu un algoritm liniar).  
 
 20. Se dau doua siraguri de margele formate din margele albe si negre, notate s1, respectiv s2.  
@@ -107,4 +107,4 @@
     daca mai mult de n/2 din valorile vectorului sunt egale cu m.  
     (prin urmare, daca un vector are element majoritate acesta este unul singur).  
     Sa se determine elementul majoritate al unui vector.  
-    (daca nu exista atunci se va afisa <nu exista>, incercati sa gasiti o solutie liniara). 
+    (daca nu exista atunci se va afisa "nu exista", incercati sa gasiti o solutie liniara). 
