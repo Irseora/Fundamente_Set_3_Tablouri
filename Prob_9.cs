@@ -15,7 +15,7 @@ namespace Rezolvari
             Write.Vector(RotateK(n, v, k));
         }
 
-        // TODO:
+        // TODO: more efficient?
         /// <summary> Roteste elementele unui vector cu k pozitii spre stanga </summary>
         /// <param name="n"> Numarul de elemente din vector </param>
         /// <param name="v"> Vectorul de numere intregi </param>

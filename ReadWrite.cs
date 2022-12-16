@@ -55,6 +55,10 @@ namespace ReadWrite
             return v;
         }
 
+        /// <summary> Citeste un tablou de valori binare </summary>
+        /// <param name="varName"> Numele variabilei care va fi citita </param>
+        /// <param name="n"> Numarul de elemente din tablou (cel mai mare element zecimal) </param>
+        /// <returns> Tabloul citit </returns>
         public static bool[] VectorBool(string varName, int n)
         {
             bool[] v = new bool[n];
@@ -66,7 +70,10 @@ namespace ReadWrite
 
             string[] input = Console.ReadLine().Split(' ');
             for (int i = 0; i < n; i++)
-                v[i] = bool.Parse(input[i]);
+                if (input[i] == "0")
+                    v[i] = false;
+                else if (input[i] == "1")
+                    v[i] = true;
 
             return v;
         }
@@ -91,6 +98,28 @@ namespace ReadWrite
         {
             for (int i = stanga; i < dreapta; i++)
                 Console.Write($"{v[i]} ");
+            Console.WriteLine();
+        }
+
+        /// <summary> Afiseaza in consola un vector de valori binare
+        /// in format binar, apoi reprezentarea lui zecimala </summary>
+        /// <param name="v"> Vectorul binar care va fi afisat </param>
+        /// <param name="format"> Formatul in care va fi afisat vectorul binar (zecimal / binar) </param>
+        public static void Vector(bool[] v, string format)
+        {
+            for (int i = 0; i < v.Length; i++)
+                if (v[i] == true )
+                {
+                    if (format == "binar")
+                        Console.Write("1 ");
+                    else if (format == "zecimal")
+                        Console.Write($"{i+1} ");
+                }
+                else
+                {
+                    if (format == "binar")
+                        Console.Write("0 ");
+                }
             Console.WriteLine();
         }
     }

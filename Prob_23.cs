@@ -5,7 +5,8 @@ namespace Rezolvari
 {
     class Prob_23
     {
-        /// <summary> Determina si afiseaza intersectia, reuniunea si diferentele a doua multimi citite din consola, cu elemente in ordine strict crescatoare </summary>
+        /// <summary> Determina si afiseaza intersectia, reuniunea si diferentele a doua multimi citite din consola,
+        /// cu elemente in ordine strict crescatoare </summary>
         public static void Driver()
         {
             int n1 = Read.Numar("N1");
@@ -34,21 +35,20 @@ namespace Rezolvari
         }
 
         /// <summary> Determina intersectia a doua multimi </summary>
-        /// <param name="n"> Numarul de elemente din fiecare multime </param>
+        /// <param name="n1"> Numarul de elemente din prima multime </param>
+        /// <param name="n2"> Numarul de elemente din a doua multime </param>
         /// <param name="v1"> Prima multime </param>
         /// <param name="v2"> A doua multime </param>
         /// <returns> Intersectia celor doua multimi </returns>
-        private static int[] Intersectie(int n1, int n2, int[] v1, int[] v2)
+        public static int[] Intersectie(int n1, int n2, int[] v1, int[] v2)
         {
             // +1 pentru a putea stoca si lungimea multimii
-            int[] intersectie = new int [n1 + n2 + 1];
+            int[] intersectie = new int [n1 + 1];
             int k = 1;
 
             for (int i = 0; i < n1; i++)
-            {
                 if (Prob_10.BinSearch(n2, v2, v1[i]) != -1)
                     intersectie[k++] = v1[i];
-            }
 
             // Stocheaza lungimea multimii in primul element al vectorului
             intersectie[0] = k;
@@ -57,11 +57,12 @@ namespace Rezolvari
         }
 
         /// <summary> Determina reuniunea a doua multimi </summary>
-        /// <param name="n"> Numarul de elemente din fiecare multime </param>
+        /// <param name="n1"> Numarul de elemente din prima multime </param>
+        /// <param name="n2"> Numarul de elemente din a doua multime </param>
         /// <param name="v1"> Prima multime </param>
         /// <param name="v2"> A doua multime </param>
         /// <returns> Reuniunea celor doua multimi </returns>
-        private static int[] Reuniune(int n1, int n2, int[] v1, int[] v2)
+        public static int[] Reuniune(int n1, int n2, int[] v1, int[] v2)
         {
             // +1 pentru a putea stoca si lungimea multimii
             int[] reuniune = new int [n1 + n2 + 1];
@@ -71,15 +72,9 @@ namespace Rezolvari
             while (i < n1 && j < n2)
             {
                 if (v1[i] < v2[j])
-                {
-                    reuniune[k++] = v1[i];
-                    i++;
-                }
+                    reuniune[k++] = v1[i++];
                 else if (v1[i] > v2[j])
-                {
-                    reuniune[k++] = v2[j];
-                    j++;
-                }
+                    reuniune[k++] = v2[j++];
                 else
                 {
                     reuniune[k++] = v1[i];
@@ -88,16 +83,10 @@ namespace Rezolvari
             }
 
             while (i < n1)
-            {
-                reuniune[k++] = v1[i];
-                i++;
-            }
+                reuniune[k++] = v1[i++];
 
             while (j < n2)
-            {
-                reuniune[k++] = v2[j];
-                j++;
-            }
+                reuniune[k++] = v2[j++];
 
             // Stocheaza lungimea multimii in primul element al vectorului
             reuniune[0] = k;
@@ -106,28 +95,23 @@ namespace Rezolvari
         }
 
         /// <summary> Determina diferenta dintre doua multimi </summary>
-        /// <param name="n"> Numarul de elemente din fiecare multime </param>
+        /// <param name="n1"> Numarul de elemente din prima multime </param>
+        /// <param name="n2"> Numarul de elemente din a doua multime </param>
         /// <param name="v1"> Prima multime </param>
         /// <param name="v2"> A doua multime </param>
         /// <returns> Diferenta dintre cele doua multimi </returns>
-        private static int[] Diferenta(int n1, int n2, int[] v1, int[] v2)
+        public static int[] Diferenta(int n1, int n2, int[] v1, int[] v2)
         {
             // Diferenta poate avea maxim atatea elemente, cate are multimea mai mare dintre cele doua date
-            int maiMare;
-            if (n1 > n2)
-                maiMare = n1;
-            else
-                maiMare = n2;
+            int maiMare = (n1 > n2) ? n1 : n2;
 
             // +1 pentru a putea stoca si lungimea multimii
             int[] diferenta = new int [maiMare + 1];
             int k = 1;
 
             for (int i = 0; i < n1; i++)
-            {
                 if (Prob_10.BinSearch(n2, v2, v1[i]) == -1)
                     diferenta[k++] = v1[i];
-            }
 
             // Stocheaza lungimea multimii in primul element al vectorului
             diferenta[0] = k;

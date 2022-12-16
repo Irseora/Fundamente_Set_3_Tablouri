@@ -24,7 +24,6 @@ namespace Rezolvari
         /// <returns> Numarul de aparitii al tabloului p in tabloul s </returns>
         static int FindPInS(int nS, int[] s, int nP, int[] p)
         {
-            bool start = false;
             int count = 0, pozCurentaInP = 0;
 
             for (int i = 0; i < nS; i++)

@@ -15,7 +15,7 @@ namespace Rezolvari
             Console.WriteLine($"Pozitia celui mai mare element: {pozitii[1]}");
         }
 
-        // TODO:
+        // TODO: 3n / 2 comparatii
         /// <summary> Determina pozitiile celui mai mic si celui mai mare element din tabloul dat </summary>
         /// <param name="n"> Numarul de elemente din tablou </param>
         /// <param name="v"> Tabloul de numere intregi </param>

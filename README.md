@@ -71,7 +71,7 @@
     Se cere sa se determine ordinea lor lexicografica (care ar trebui sa apara primul in dictionar).  
 
 22. Se dau doi vectori v1 si v2.  
-    Se cere sa determine intersectia, reuniunea, si diferentele v1-v2 si v2 -v1.  
+    Se cere sa determine intersectia, reuniunea, si diferentele v1 - v2 si v2 - v1.  
     (implementarea operatiilor cu multimi)  
     Elementele care se repeta vor fi scrise o singura data in rezultat.  
   
