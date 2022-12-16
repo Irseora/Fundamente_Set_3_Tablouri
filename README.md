@@ -10,7 +10,7 @@
  3. Sa se determine pozitiile dintr-un vector pe care apar cel mai mic si cel mai mare element al vectorului.  
     Pentru extra-credit realizati programul efectuand 3n / 2 comparatii (in cel mai rau caz).  
   
- 4. Deteminati printr-o singura parcurgere, cea mai mica si cea mai mare valoare dintr-un vector  
+ 4. Determinati printr-o singura parcurgere, cea mai mica si cea mai mare valoare dintr-un vector  
     si de cate ori apar acestea.  
   
  5. Se da un vector cu n elemente, o valoare e si o pozitie din vector k.  
