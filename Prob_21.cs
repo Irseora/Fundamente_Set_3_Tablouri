@@ -24,7 +24,6 @@ namespace Rezolvari
                 Console.WriteLine("V1 urmeaza dupa V2");
         }
 
-        // TODO: How to force space in XML comments ???
         /// <summary> Determina ordinea lexicografica a doua tablouri </summary>
         /// <param name="n1"> Lungimea primului tablou </param>
         /// <param name="v1"> Primul tablou </param>
