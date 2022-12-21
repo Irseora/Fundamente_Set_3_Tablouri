@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_3
     {
+        // <summary> Determina si afiseaza pozitiile celui mai mic si celui mai mare element din vector </summary>
         public static void Driver()
         {
             int n = Read.Numar("Lungimea vectorului");

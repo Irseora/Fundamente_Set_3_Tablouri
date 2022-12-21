@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_6
     {
+        /// <summary> Sterge un element de pe o pozitie data dintr-un vector, apoi afiseaza vectorul modificat </summary>
         public static void Driver()
         {
             int n = Read.Numar("N");

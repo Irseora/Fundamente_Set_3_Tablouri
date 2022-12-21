@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_25
     {
+        /// <summary> Interclaseaza si afiseaza elementele a doi vectori; sunt permise elemente duplicate </summary>
         public static void Driver()
         {
             int n1 = Read.Numar("N1");

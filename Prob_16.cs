@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_16
     {
+        /// <summary> Determina si afiseaza cel mai mare divizor comun al elementelor unui vector </summary>
         public static void Driver()
         {
             int n = Read.Numar("N");

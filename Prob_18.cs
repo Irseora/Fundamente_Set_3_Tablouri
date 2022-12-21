@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_18
     {
+        /// <summary> Calculeaza si afiseaza valoare unui polinom intr-un punct dat </summary>
         public static void Driver()
         {
             int n = Read.Numar("N (gradul polinomului)");

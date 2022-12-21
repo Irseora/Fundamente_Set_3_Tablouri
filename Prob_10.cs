@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_10
     {
+        /// <summary> Determina si afiseaza pozitia unui element intr-un vector prin cautare binara </summary>
         public static void Driver()
         {
             int n = Read.Numar("N");

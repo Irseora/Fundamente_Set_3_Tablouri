@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_15
     {
+        /// <summary> Elimina elementele care se repeta din vector, apoi afiseaza vectorul modificat </summary>
         public static void Driver()
         {
             int n = Read.Numar("Lungimea vectorului");

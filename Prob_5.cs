@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_5
     {
+        /// <summary> Insereaza un element intr-un vector, pe o pozitie data, apoi afiseaza vectorul modificat </summary>
         public static void Driver()
         {
             int n = Read.Numar("N");

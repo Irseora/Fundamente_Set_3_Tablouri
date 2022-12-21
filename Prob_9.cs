@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_9
     {
+        /// <summary> Roteste elementele unui vector cu k pozitii spre stanga, apoi afiseaza vectorul modificat </summary>
         public static void Driver()
         {
             int n = Read.Numar("N");

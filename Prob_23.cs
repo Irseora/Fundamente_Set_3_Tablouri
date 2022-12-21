@@ -5,8 +5,7 @@ namespace Rezolvari
 {
     class Prob_23
     {
-        /// <summary> Determina si afiseaza intersectia, reuniunea si diferentele a doua multimi citite din consola,
-        /// cu elemente in ordine strict crescatoare </summary>
+        /// <summary> Determina si afiseaza intersectia, reuniunea si diferentele a doua multimi ordonate strict crescator </summary>
         public static void Driver()
         {
             int n1 = Read.Numar("N1");

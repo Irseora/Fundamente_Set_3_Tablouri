@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_19
     {
+        /// <summary> Determina si afiseaza de cate ori apare un vector intr-un alt vector </summary>
         public static void Driver()
         {
             int nS = Read.Numar("Lungimea lui S");

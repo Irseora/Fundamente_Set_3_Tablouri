@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_4
     {
+        /// <summary> Determina si afiseaza cea mai mica valoare, cea mai mare valoare si numarul lor de aparitii dintr-un vector </summary>
         public static void Driver()
         {
             int n = Read.Numar("Lungimea vectorului");

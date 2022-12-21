@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_21
     {
+        /// <summary> Determina si afiseaza ordinea lexicografica a doi vectori </summary>
         public static void Driver()
         {
             int n1 = Read.Numar("N1");

@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_7
     {
+        /// <summary> Inverseaza ordinea elementelor dintr-un vector dat, apoi afiseaza vectorul modificat </summary>
         public static void Driver()
         {
             int n = Read.Numar("N");

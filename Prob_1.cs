@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_1
     {
+        /// <summary> Determina si afiseaza suma elementelor unui vector </summary>
         public static void Driver()
         {
             int n = Read.Numar("N");

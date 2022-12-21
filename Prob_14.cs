@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_14
     {
+        /// <summary> Muta toate elementele egale cu 0 la sfarsitul vectorului, apoi afiseaza vectorul modificat </summary>
         public static void Driver()
         {
             int n = Read.Numar("Lungimea vectorului");
