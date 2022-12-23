@@ -5,6 +5,7 @@ namespace Rezolvari
 {
     class Prob_12
     {
+        /// <summary> Sorteaza crescator si afiseaza un vector prin Selection Sort </summary>
         public static void Driver()
         {
             int n = Read.Numar("Lungimea vectorului");

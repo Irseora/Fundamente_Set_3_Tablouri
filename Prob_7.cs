@@ -19,7 +19,7 @@ namespace Rezolvari
         /// <param name="n"> Lungimea tabloului </param>
         /// <param name="v"> Tabloul </param>
         /// <returns> Tabloul modificat dupa inserare </returns>
-        static int[] Reverse(int n, int[] v)
+        public static int[] Reverse(int n, int[] v)
         {
             for (int i = 0; i < n / 2; i++)
             {

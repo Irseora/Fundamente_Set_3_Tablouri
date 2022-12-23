@@ -108,7 +108,7 @@ namespace Fundamente_Set_3_Tablouri
                 case 14: Prob_14.Driver(); break;
                 case 15: Prob_15.Driver(); break;
                 case 16: Prob_16.Driver(); break;
-                // case 17: Prob_17.Driver(); break;
+                case 17: Prob_17.Driver(); break;
                 case 18: Prob_18.Driver(); break;
                 case 19: Prob_19.Driver(); break;
                 // case 20: Prob_20.Driver(); break;
@@ -117,7 +117,7 @@ namespace Fundamente_Set_3_Tablouri
                 case 23: Prob_23.Driver(); break;
                 case 24: Prob_24.Driver(); break;
                 case 25: Prob_25.Driver(); break;
-                // case 26: Prob_26.Driver(); break;
+                case 26: Prob_26.Driver(); break;
                 // case 27: Prob_27.Driver(); break;
                 // case 28: Prob_28.Driver(); break;
                 // case 29: Prob_29.Driver(); break;
