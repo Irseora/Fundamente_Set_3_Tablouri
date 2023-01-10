@@ -26,7 +26,7 @@ namespace Rezolvari
             {
                 int[] diferenta = Subtract(n1, v1, n2, v2);
                 Console.Write("V1 - V2 = ");
-                Write.VectorNoSpaces(Prob_7.Reverse())
+                //Write.VectorNoSpaces(Prob_7.Reverse())
             }
             
             
